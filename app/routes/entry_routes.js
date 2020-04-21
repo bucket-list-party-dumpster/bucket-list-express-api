@@ -60,7 +60,7 @@ router.get('/entries/:id', requireToken, (req, res, next) => {
 router.post('/entries', requireToken, (req, res, next) => {
   // set owner of new example to be current user
   req.body.entry.owner = req.user.id
-
+  
   Entry.create(req.body.entry)
     // respond to succesful `create` with status 201 and JSON of new "example"
     .then(entry => {
