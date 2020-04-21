@@ -12,7 +12,7 @@ curl "${API}${URL_PATH}/${ID}" \
     "entry": {
       "title": "'"${TITLE}"'",
       "description": "'"${DESCRIPTION}"'",
-      "owner": "'"${ID}"'"
+      "owner": "'"${OWNERID}"'"
     }
   }'
 
