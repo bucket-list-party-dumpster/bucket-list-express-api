@@ -3,6 +3,9 @@
 ### ERD
 diagram!!
 
+### Resources
+- [How find works in mongoose](https://thecodebarbarian.com/how-find-works-in-mongoose)
+
 ### User Stories
 
 - As an unregistered user, I would like to sign up with email and - password.
