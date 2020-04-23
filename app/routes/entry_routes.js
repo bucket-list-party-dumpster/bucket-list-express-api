@@ -37,12 +37,12 @@ router.get('/entries', requireToken, (req, res, next) => {
       // apply `.toObject` to each one
       return entries.map(entry => entry.toObject()).sort((a, b) => {
         if (a.completed === false && b.completed === true) {
-          return -1;
+          return -1
         }
         if (a.completed === true && b.completed === false) {
-          return 1;
+          return 1
         }
-        return 0;
+        return 0
       })
     })
     // respond with status 200 and JSON of the examples
