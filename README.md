@@ -1,7 +1,7 @@
 # Bucket list API
 
 ### ERD
-diagram!!
+![ERD](api_erd.png)
 
 ### Resources
 - [How find works in mongoose](https://thecodebarbarian.com/how-find-works-in-mongoose)
