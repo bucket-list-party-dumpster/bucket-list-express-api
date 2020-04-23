@@ -13,6 +13,10 @@ const entrySchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
+  },
+  completed: {
+    default: false,
+    type: Boolean
   }
 }, {
   timestamps: true
