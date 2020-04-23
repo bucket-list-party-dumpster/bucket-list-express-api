@@ -19,7 +19,8 @@
 - As a signed in user, I would like to cross off items to complete them.
 
 ### Development process
-- Start on the back-end, API.
-- Mob programming API for model, routes, server for entries, and curl scripts.
-- Set up and deploy on heroku.
-- Track progress via github projects.
+- API was setup before client work began.
+- We mob programmed the model, routes, server, and curl-scripts for entries.
+- We set up and deployed our app on Heroku.
+- After running into an issue on the client end, we added a "completed" attribute to our entry model.
+- We also added a filter to our index call to ensure a user can only view the entries that they own. The [resource above](https://thecodebarbarian.com/how-find-works-in-mongoose) helped us to figure out how to implement this functionality.
